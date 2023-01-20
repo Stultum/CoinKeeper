@@ -1,0 +1,10 @@
+package com.stultus.coinkeeper.feature.income.details.presentation
+
+import com.stultus.coinkeeper.shared.income.core.src.main.domain.entity.Income
+
+interface IncomeDetailsRouter {
+
+	fun back()
+
+	fun openEditIncome(income: Income)
+}

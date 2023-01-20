@@ -1,0 +1,13 @@
+ext.Configs = [
+	APPLICATION_ID    : "com.stultus.coinkeeper",
+
+	TARGET_SDK        : 31,
+	COMPILE_SDK       : 31,
+	MIN_SDK           : 26,
+	BUILD_TOOL_VERSION: "30.0.3",
+
+	JVM_TARGET        : "1.8",
+
+	CODE              : 1,
+	NAME              : "1.0",
+]

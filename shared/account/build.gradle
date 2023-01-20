@@ -1,0 +1,16 @@
+apply plugin: Plugins.ANDROID_LIBRARY
+apply plugin: Plugins.KOTLIN_ANDROID
+apply plugin: Plugins.KOTLIN_KAPT
+
+apply from: "$rootDir/build_system/androidLibrary.gradle"
+dependencies {
+	implementation Dependencies.CORE
+	implementation Dependencies.APP_COMPAT
+	implementation Dependencies.KOIN_CORE
+	implementation Dependencies.KOIN_ANDROID
+	implementation Dependencies.COMPOSE_RUNTIME
+
+	implementation Dependencies.ROOM_RUNTIME
+	kapt Dependencies.ROOM_COMPILER
+	implementation Dependencies.ROOM_KTX
+}

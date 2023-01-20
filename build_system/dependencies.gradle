@@ -1,0 +1,55 @@
+apply from: 'build_system/versions.gradle'
+ext.Dependencies = [
+	KOTLIN                 : "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.KOTLIN}",
+	KOTLIN_STANDARD_LIBRARY: "org.jetbrains.kotlin:kotlin-stdlib:${Versions.KOTLIN}",
+	REFLECT                : "org.jetbrains.kotlin:kotlin-reflect:${Versions.KOTLIN}",
+
+	COMPOSE_UI             : "androidx.compose.ui:ui:${Versions.COMPOSE}",
+	COMPOSE_MATERIAL       : "androidx.compose.material:material:${Versions.COMPOSE}",
+	COMPOSE_UI_PREVIEW     : "androidx.compose.ui:ui-tooling-preview:${Versions.COMPOSE}",
+	COMPOSE_ACTIVITY       : "androidx.activity:activity-compose:${Versions.COMPOSE_ACTIVITY}",
+	COMPOSE_NAVIGATION     : "androidx.navigation:navigation-compose:${Versions.COMPOSE_NAVIGATION}",
+	COMPOSE_RUNTIME        : "androidx.compose.runtime:runtime:${Versions.COMPOSE}",
+
+	ROOM_RUNTIME           : "androidx.room:room-runtime:${Versions.ROOM}",
+	ROOM_COMPILER          : "androidx.room:room-compiler:${Versions.ROOM}",
+	ROOM_KTX               : "androidx.room:room-ktx:${Versions.ROOM}",
+
+	KOIN_ANDROID           : "io.insert-koin:koin-android:${Versions.KOIN}",
+	KOIN_CORE              : "io.insert-koin:koin-core:${Versions.KOIN}",
+	KOIN_COMPOSE           : "io.insert-koin:koin-androidx-compose:${Versions.KOIN}",
+
+	RETROFIT               : "com.squareup.retrofit2:retrofit:${Versions.RETROFIT}",
+	OKHTTP_INTERCEPTOR     : "com.squareup.okhttp3:logging-interceptor:${Versions.OKHTTP}",
+	GSON                   : "com.google.code.gson:gson:${Versions.GSON}",
+	GSON_CONVERTER         : "com.squareup.retrofit2:converter-gson:${Versions.RETROFIT}",
+	RXJAVA2_ADAPTER        : "com.squareup.retrofit2:adapter-rxjava2:${Versions.RETROFIT}",
+
+	GRADLE                 : "com.android.tools.build:gradle:${Versions.GRADLE}",
+	GUAVA                  : "com.google.guava:guava:${Versions.GUAVA}",
+	ACCOMPANIST            : "com.google.accompanist:accompanist-systemuicontroller:${Versions.ACCOMPANIST}",
+	MATERIAL               : "com.google.android.material:material:${Versions.MATERIAL}",
+	CORE                   : "androidx.core:core-ktx:${Versions.CORE}",
+	CONSTRAINT_LAYOUT      : "androidx.constraintlayout:constraintlayout:${Versions.CONSTRAINT_LAYOUT}",
+	APP_COMPAT             : "androidx.appcompat:appcompat:${Versions.APP_COMPAT}",
+	DECORO                 : "ru.tinkoff.decoro:decoro:${Versions.DECORO}",
+
+	RXJAVA2                : "io.reactivex.rxjava2:rxjava:${Versions.RXJAVA2}",
+	RXKOTLIN               : "io.reactivex.rxjava2:rxkotlin:${Versions.RXKOTLIN}",
+	RXJAVA2_ANDROID        : "io.reactivex.rxjava2:rxandroid:${Versions.RXJAVA2_ANDROID}",
+
+	JUNIT                  : "junit:junit:${Versions.JUNIT}",
+	TEST_JUNIT             : "androidx.test.ext:junit:${Versions.TEST_JUNIT}",
+	ESPRESSO_CORE          : "androidx.test.espresso:espresso-core:${Versions.ESPRESSO_CORE}",
+	CORE_TESTING           : "androidx.arch.core:core-testing:${Versions.CORE_TESTING}",
+
+	CICERONE               : "com.github.terrakok:cicerone:${Versions.CICERONE}",
+	FRAGMENT               : "androidx.fragment:fragment-ktx:${Versions.FRAGMENT}",
+	GLIDE                  : "com.github.bumptech.glide:glide:${Versions.GLIDE}",
+
+	MOCKITO_CORE           : "org.mockito:mockito-core:${Versions.MOCKITO_CORE}",
+	MOCKITO_INLINE         : "org.mockito:mockito-inline:${Versions.MOCKITO_INLINE}",
+	MOCKITO_KOTLIN         : "org.mockito.kotlin:mockito-kotlin:${Versions.MOCKITO_KOTLIN}",
+
+	ARCH_CORE_TESTING      : "androidx.arch.core:core-testing:${Versions.ARCH_CORE_TESTING}",
+]

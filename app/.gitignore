@@ -1,0 +1,17 @@
+*.iml
+*.hprof
+.gradle
+.allure
+.idea
+local.properties
+build
+libs
+schemas
+test-reports
+tools/detekt/reports
+*.puml
+talaiot/gexfTaskDependency.gexf
+**/build
+**/generated
+.externalNativeBuild
+/projectFilesBackup

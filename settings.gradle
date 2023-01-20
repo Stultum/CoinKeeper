@@ -1,0 +1,23 @@
+rootProject.name = "CoinKeeper"
+
+include ':app'
+
+include ':component:design:resources'
+include ':component:ui'
+
+include ':feature:account:add'
+include ':feature:account:list'
+include ':feature:feed'
+include ':feature:income:add'
+include ':feature:income:details'
+include ':feature:spending:add'
+include ':feature:spending:category:list'
+include ':feature:spending:core'
+include ':feature:spending:details'
+include ':feature:spending:history'
+include ':feature:splash'
+
+include ':shared:account'
+include ':shared:delete'
+include ':shared:spending:core'
+include ':shared:income:core'
